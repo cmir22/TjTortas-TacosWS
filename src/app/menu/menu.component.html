@@ -1,0 +1,59 @@
+<!--------------------------------------------------------------------------------->
+
+<app-nav-bar></app-nav-bar>
+
+<!--------------------------------------------------------------------------------->
+
+<h1 class="textMenu">Menu</h1>
+
+<!--------------------------------------------------------------------------------->
+
+<app-tacos (productAdded)="addProductToCart($event)" [products]="productList"></app-tacos>
+<app-shopping-cart [products]="cartProductList" (productRemoved)="removeProduct($event)"></app-shopping-cart>
+
+<!--------------------------------------------------------------------------------->
+
+<div class="container">
+    <mat-card class="TacosCard">
+        <h1 class="textCard">Tacos</h1>
+    </mat-card>
+
+    <mat-card class="BurritoCard">
+        <h1 class="textCard">Burritos</h1>
+    </mat-card>
+
+    <mat-card class="TortaCard">
+        <h1 class="textCard">Tortas</h1>
+    </mat-card>
+
+    <mat-card class="MulitaCard">
+        <h1 class="textCard">Mulitas</h1>
+    </mat-card>
+
+    <mat-card class="QuesadillaCard">
+        <h1 class="textCard">Quesadillas</h1>
+    </mat-card>
+
+    <mat-card class="VegetarianCard">
+        <h1 class="textCard">Vegetarian</h1>
+    </mat-card>
+
+    <mat-card class="BirriaCard">
+        <h1 class="textCard">Birria</h1>
+    </mat-card>
+
+    <mat-card class="FishCard">
+        <h1 class="textCard">Fish Sandwich</h1>
+    </mat-card>
+
+    <mat-card class="FriesCard">
+        <h1 class="textCard">Fries</h1>
+    </mat-card>
+
+</div>
+
+<h1 class="textBottom">Tj Tortas & Tacos. SAN DIEGO CALIFORNIA.</h1>
+
+<!--------------------------------------------------------------------------------->
+
+<router-outlet></router-outlet>

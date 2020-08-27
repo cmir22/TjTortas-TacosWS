@@ -1,0 +1,47 @@
+#imageLogo{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+
+}
+
+.textWhereEat{
+    margin-top: 100px;
+    text-align: center;
+    color: gray;
+    font-size: 28px;
+    margin-bottom: 80px;
+}
+
+
+
+.buttonsChoose{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-column-gap: 24px;
+    justify-content: center;
+    max-width: 100%;
+  
+    margin: auto;
+    cursor: pointer;
+
+    .carda{
+        margin-top: 80px;
+        
+    }
+
+    #imageButtonEatIn{
+        width: 75px;
+        height: 75px;
+    }
+    
+    .textEatIn{
+       text-align: center; 
+    }
+
+
+}
+
+
+
+

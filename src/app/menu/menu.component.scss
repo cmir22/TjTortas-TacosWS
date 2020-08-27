@@ -1,0 +1,81 @@
+
+.container , .TacosCard,.BurritoCard,.TortaCard,.MulitaCard,.QuesadillaCard,.VegetarianCard,.BirriaCard,.FishCard,.FriesCard{
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    margin-top: 50px;
+    
+    
+    .itemCard, .TacosCard,.BurritoCard,.TortaCard,.MulitaCard,.QuesadillaCard,.VegetarianCard,.BirriaCard,.FishCard,.FriesCard{
+    background-color: black;
+    padding: 40px;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 600px;
+    cursor: pointer;
+}
+}
+
+.textMenu{
+    text-align: center; 
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.TacosCard{
+    background-image: url("https://www.visitruidoso.com/wp-content/uploads/2017/06/download-3-269x187.jpg") ;
+}
+
+.BurritoCard{
+    background-image: url("https://www.sgvtribune.com/wp-content/uploads/2020/06/LDN-L-DINE-MEXICANFOOD-0612-2-1.jpg?w=495") ;
+}
+
+.TortaCard{
+    background-image: url("https://img.chilango.com/2017/11/Tortas-Robles.jpg") ;
+}
+
+.MulitaCard{
+    background-image: url("https://i.pinimg.com/originals/7c/a0/e8/7ca0e89edcbb07190c67fe98c1e604ee.jpg") ;
+}
+
+.QuesadillaCard{
+    background-image: url("https://i.pinimg.com/originals/15/1d/89/151d8985b22422915e33e1b17f06091c.jpg") ;
+}
+
+.VegetarianCard{
+    background-image: url("https://www.heartfoundation.org.nz/media/images/nutrition/page-heros/plant-based-diet_737_553_c1.jpg") ;
+}
+
+.BirriaCard{
+    background-image: url("https://www.curiosfera.com/wp-content/uploads/2017/07/Receta-birria-de-res.jpg") ;
+}
+
+.FishCard{
+    background-image: url("https://www.mygourmetconnection.com/wp-content/uploads/oven-fried-fish-sandwiches-720x405.jpg") ;
+}
+
+.FriesCard{
+    background-image: url("https://thegirlonbloor.com/wp-content/uploads/2018/05/The-Best-Carne-Asada-Fries-3-500x375.jpg") ;
+}
+
+
+.textCard{
+    color: white;
+    background: black;
+    text-align: center;
+    margin: 0 auto;
+    width: 140px !important;
+
+    // Border Text Card
+    border-radius: 83px 83px 83px 83px;
+    -moz-border-radius: 83px 83px 83px 83px;
+    -webkit-border-radius: 83px 83px 83px 83px;
+}
+
+.textBottom{
+
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: center;
+}
