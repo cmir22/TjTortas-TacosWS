@@ -13,11 +13,9 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MenuComponent } from './menu/menu.component';
-import { TacosComponent} from './menu/tacos/tacos.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
-import { CartProductComponent } from './cart-product/cart-product.component';
-import { ProductComponent } from './product/product.component'
- 
+
+
 
 let MatApis = [
   MatToolbarModule,
@@ -34,16 +32,15 @@ let MatApis = [
     HomeComponent,
     NavBarComponent,
     MenuComponent,
-    TacosComponent,
     ShoppingCartComponent,
-    CartProductComponent,
-    ProductComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatApis
+    MatApis,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

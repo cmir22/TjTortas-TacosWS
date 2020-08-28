@@ -1,3 +1,25 @@
-<h1>Shopping Cart ({{calcTotal()}})</h1>
-<app-cart-product *ngFor="let product of products" [product]="product" (productRemoved)="removeProduct($event)"><app-cart-product>
 
+    <div class="content">
+      <button mat-button class="snipcart-add-item"
+  data-item-id="starry-night"
+  data-item-price="79.99"
+  data-item-url="/paintings/starry-night"
+  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+  data-item-image="/assets/images/starry-night.jpg"
+  data-item-name="The Starry Night">
+  Add to cart
+</button>
+
+
+
+<button mat-button class="snipcart-add-item"
+  data-item-id="starry-night"
+  data-item-price="79.99"
+  data-item-url="/paintings/starry-night"
+  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+  data-item-image="/static/images/starry-night.jpg"
+  data-item-name="The Starry Night"
+  data-item-custom1-name="Special Message to Kitchen"
+  data-item-custom1-type="textarea">
+  Add to cart
+</button>
