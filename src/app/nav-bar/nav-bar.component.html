@@ -1,35 +1,37 @@
+
 <nav style="background: black !important;" class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand">
-    <img
-      src="https://firebasestorage.googleapis.com/v0/b/tjtortasytacos.appspot.com/o/Logotipo.png?alt=media&token=f3807c88-2ddd-4dc8-adaa-67b758f4f722"
-      width="40" height="40" alt="" loading="lazy">
-  </a>
-  <button class="navbar-toggler" style="border: none;" type="button" data-toggle="collapse"
-    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-    aria-label="Toggle navigation">
-    <span style="color: white;" class="material-icons">
+    <a  class="navbar-brand" >
+      <img  src="https://firebasestorage.googleapis.com/v0/b/tjtortasytacos.appspot.com/o/Logotipo.png?alt=media&token=f3807c88-2ddd-4dc8-adaa-67b758f4f722" width="40" height="40" alt="" loading="lazy">
+    </a>
+    <button mat-button [matMenuTriggerFor]="menu"><span style="color: white;" class="material-icons">
       menu
     </span>
-  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="goHome()">Home</button>
+    <button mat-menu-item>Contact</button>
+  </mat-menu>
+      
+    </button>
+  
+    <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">Order Online</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="/">Call Us</a>
+        </li>   
+      </ul>
+      
+    </div>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/">Order Online</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/">Call Us</a>
-      </li>
-    </ul>
-
-  </div>
-
-  <button mat-button class="snipcart-checkout"><span style="color: white;" class="material-icons">
+    <button mat-button class="snipcart-checkout"><span style="color: white;" class="material-icons">
       shopping_cart
-    </span></button>
-</nav>
-
-<router-outlet></router-outlet>
+      </span></button>
+  </nav>
+  
+  <router-outlet></router-outlet>
+  

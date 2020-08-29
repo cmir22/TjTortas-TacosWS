@@ -14,15 +14,17 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MenuComponent } from './menu/menu.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
-
-
+import { MatMenuModule } from '@angular/material/menu';
+import { MatDialogModule } from '@angular/material/dialog';
 
 let MatApis = [
   MatToolbarModule,
   MatCardModule,
   MatButtonModule,
   MatDividerModule,
-  MatSidenavModule
+  MatSidenavModule,
+  MatMenuModule,
+  MatDialogModule
 
 ]
 

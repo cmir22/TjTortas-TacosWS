@@ -1,0 +1,65 @@
+// CSS FOR DIALOGS
+
+.DialogCloseButton  {
+  
+    background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+  transition-duration: 0.4s;
+  font-size: 20px;
+  width: 120px !important;
+  }
+
+  .snipcart-add-item{
+    position: absolute;
+    right: 75px;
+    display: inline-block;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+    width: 65px !important;
+    margin: -2px -2px;
+  
+  }
+
+  .DialogItemsText{
+    background-color: rgb(230, 230, 230);
+    border-radius: 7px;
+  }
+
+  .DialogButtons{
+    margin-top: 50px !important;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-column-gap: 24px;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .DialogCloseButton:hover {
+    background-color:rgb(49, 49, 49); /* Green */
+    color: white;
+  }
+
+  ::ng-deep .dialog-design > mat-dialog-container {
+      color: black;
+    background: white
+  }
+
+  .DialogHeaderText{
+    text-align: center;
+}
