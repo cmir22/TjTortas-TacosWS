@@ -10,8 +10,8 @@ export class MenuComponent implements OnInit {
 
   openDialog() {
     this.dialog.open(DialogTacosMenu, {
-      width: '400px',
-      height: '540px',
+      width: '500px',
+      height: '510px',
       panelClass: 'dialog-design'
     });
   }

@@ -19,9 +19,7 @@
   }
 
   .snipcart-add-item{
-    position: absolute;
-    right: 75px;
-    display: inline-block;
+    float: right;
     background-color: black;
     border: none;
     color: white;
@@ -31,7 +29,6 @@
     cursor: pointer;
     border-radius: 7px;
     transition-duration: 0.4s;
-    width: 65px !important;
     margin: -2px -2px;
   
   }
@@ -39,10 +36,11 @@
   .DialogItemsText{
     background-color: rgb(230, 230, 230);
     border-radius: 7px;
+    width: 100%;
   }
 
   .DialogButtons{
-    margin-top: 50px !important;
+    margin-top: 80px !important;
     display: grid;
     grid-template-columns: auto auto ;
     grid-column-gap: 24px;
