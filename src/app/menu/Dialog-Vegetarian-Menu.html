@@ -1,0 +1,64 @@
+<!------------------------------------------------------------------------->
+
+<div class="Dialog">
+
+    <!-------------------TITTLE------------------------------------------------------>
+    
+    <h1 mat-dialog-title class="DialogHeaderText">Vegetarian</h1>
+    
+    <!------------------PROCUCTS------------------------------------------------------->
+    
+    <div mat-dialog-content class="DialogItemsText">
+        <h3>&nbsp;&nbsp;Taco<button mat-button class="snipcart-add-item"
+            data-item-id="Vegetarian-Taco"
+            data-item-price="1.99"
+            data-item-description="CORN TORTILLA,AVOCADO,GREEN PEPPPER,TOMATOE,ONION,CILANTRO,LETTUCE."
+            data-item-name="Vegetarian Taco"
+            data-item-custom1-name="Special Message to Kitchen">
+            1.99 
+            </button></h3> 
+    </div>
+
+    <div mat-dialog-content class="DialogItemsText">
+        <h3>&nbsp;&nbsp;Burrito<button mat-button class="snipcart-add-item"
+            data-item-id="Vegetarian-Burrito"
+            data-item-price="6.99"
+            data-item-description="FLOUR TORTILLA,AVOCADO,GREEN PEPPER,TOMATO,ONION,CILANTRO,LETTUCE,FRIES,CHEESE,EGGS."
+            data-item-name="Vegetarian Burrito"
+            data-item-custom1-name="Special Message to Kitchen">
+            6.99 
+            </button></h3> 
+    </div>
+
+    <div mat-dialog-content class="DialogItemsText">
+        <h3>&nbsp;&nbsp;Quesadilla<button mat-button class="snipcart-add-item"
+            data-item-id="Vegetarian-Quesadilla"
+            data-item-price="6.99"
+            data-item-description="CORN TORTILLA,AVOCADO,GREEN PEPPPER,TOMATOE,ONION,CILANTRO,LETTUCE."
+            data-item-name="Vegetarian Quesadilla"
+            data-item-custom1-name="Special Message to Kitchen">
+            6.99 
+            </button></h3> 
+    </div>
+
+    <div mat-dialog-content class="DialogItemsText">
+        <h3>&nbsp;&nbsp;Torta<button mat-button class="snipcart-add-item"
+            data-item-id="Vegetarian-Torta"
+            data-item-price="6.99"
+            data-item-description="PAN TELERA,MAYONNAISE,AVOCADO,GREEN PEPPPER,TOMATOE,CILANTRO,LETTUCE."
+            data-item-name="Vegetarian Torta"
+            data-item-custom1-name="Special Message to Kitchen">
+            6.99 
+            </button></h3> 
+    </div>
+
+
+    <!----------------BUTTONS FOR CLOSE OR PAY--------------------------------------------------------->
+    
+    <div mat-dialog-actions class="DialogButtons">
+        <button class="DialogCloseButton" mat-button (click)="onNoClick()">Close</button>
+        <button class="DialogCloseButton snipcart-checkout" mat-button >Pay</button>
+    </div>
+    </div>
+    
+    <!------------------------------------------------------------------------->
